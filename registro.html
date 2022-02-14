@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATE</title>
+    <style>
+        body, html{
+            background-image: url(./reg.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        div{margin-left: 35%}
+        h3{color: white;}
+        h4{color: white;}
+        input{color: white;}
+    </style>
+</head>
+<body>
+    <div>
+        <form action="./envio.html" method="get" required>
+            <h3>APELLIDOS</h3>
+            <input type="text" placeholder="INGRESE SUS APELLIDOS" required>
+            <h3>INGRESE SU NOMBRE</h3>
+            <input type="text" placeholder="INGRESE SU NOMBRE" required>
+            <h3>TELEFONO</h3>
+            <input type="number" placeholder="INGRESE SU NÚMERO" required>
+            <h3>SELECCIONE SU TIPO DE DOCUMENTO</h3>
+            <select name="seleccionar" required> 
+                <option>SELECCIONAR</option>
+                <option>CEDULA DE CIUDADANIA</option>
+                <option>CEDULA DE EXTRANJERIA</option>
+                <option>PASAPORTE</option>
+            </select>
+            <h3>IDENTIFICACIÓN</h3>
+            <input type="number" placeholder="INGRESE SU DOCUMENTO" required>
+            <h3>CORREO</h3>
+            <input type="email" placeholder="INGRESE SU EMAIL" required>
+            <h3>ADJUNTAR FOTO SUYA</h3>
+                <input type="file" name="imagen" required> 
+            <h3>SELECCIONE SU CIUDAD</h3>
+            <select name="seleccionar" required> 
+                <option>SELECCIONAR</option>
+                <option>MONTERIA</option>
+                <option>NEIVA</option>
+                <option>PASTO</option>
+                <option>ARMENIA</option>
+                <option>SOLEDAD</option>
+                <option>BELLO</option>
+                <option>VILLAVICENCIO</option>
+                <option>IBAGUE</option>
+                <option>MEDELLIN</option>
+                <option>PEREIRA</option>
+                <option>SANTA MARTA</option>
+                <option>BOGOTÁ</option>
+                <option>VALLEDUPAR</option>
+                <option>CARTAGENA</option>
+                <option>CALI</option>
+                <option>BARRANQUILLA</option>
+                <option>SOACHA</option>
+                <option>CUCUTA</option>
+                <option>MANIZALES</option>
+            </select>
+            <h3>SELECCIONE SU GENERO</h3>
+            <h4><input type="radio" required>
+            MASCULINO</h4>
+            <h4><input type="radio" required>
+            FEMENINO</h4>
+            <br>
+                <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>
