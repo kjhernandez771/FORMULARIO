@@ -7,25 +7,26 @@
     <title>LOGIN</title>
     <style>
         body, html{
-            background-image:url(./log.jpg) ;
-            background-position: center;
+            background-image:url(./fondo\ de\ casa.jpg) ;
+            background-position: absolute;
             background-size: cover;
             background-repeat: no-repeat;
         }
-        form{
-            align-items: center;
-            margin-top: 15%;
-            margin-left: 35%;
+        .form-group{
+            position: absolute;
+            margin-left:50;
+            margin-top: 35px;
         }
         button{
-            margin: 5px;
-            background-color: aqua;
+            margin: px;
+            background-color: white;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     </style>
 </head>
 <body>
-    <form action="./registro.html" method="get" required>
+    <div class="container admin-container">  
+         <form class="form-group" action="./registro.html" method="get" required>
         <h1>INMOBILIARIA HERNANDEZ</h1>
 
         <input type="text" placeholder="INGRESE SU USUARIO">
@@ -33,11 +34,16 @@
         <br>
         <input type="password" placeholder="INGRESE SU CONTRASEÑA">
         <br>
-        <button>INGRESAR</button>
         <br>
+        <button>INGRESAR</button>   
+        <br>
+        <br>
+        
         <button>REGISTRARSE</button>
         <button>OLVIDO CONTRASEÑA</button>
         <br>
-    </form>
+    </form> 
+</div>
+ 
 </body>
 </html>
